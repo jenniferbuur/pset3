@@ -27,11 +27,13 @@ class ViewController: UIViewController {
         self.search(title: searchBar.text!)
         view.endEditing(true)
         searchBar.text = ""
+        searchBar.placeholder = "search a movie"
     }
     
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
         view.endEditing(true)
         searchBar.text = ""
+        searchBar.placeholder = " search a movie"
     }
     
     func getPoster(poster: String) -> UIImage {
@@ -91,7 +93,7 @@ class ViewController: UIViewController {
     }
     
     @IBOutlet var editButton: UIBarButtonItem!
-    @IBAction func editWatchList(_ sender: Any) {
+    @IBAction func editButtonClicked(_ sender: Any) {
         if tableView.isEditing {
             tableView.setEditing(false, animated: true)
             editButton.title = "Edit"
