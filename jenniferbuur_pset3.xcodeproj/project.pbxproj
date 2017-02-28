@@ -12,6 +12,8 @@
 		D24657601E645D2100D17801 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D246575E1E645D2100D17801 /* Main.storyboard */; };
 		D24657621E645D2100D17801 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D24657611E645D2100D17801 /* Assets.xcassets */; };
 		D24657651E645D2100D17801 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D24657631E645D2100D17801 /* LaunchScreen.storyboard */; };
+		D246576D1E64614700D17801 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D246576C1E64614700D17801 /* MovieCell.swift */; };
+		D2CC56231E64857E00FDCB39 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CC56221E64857E00FDCB39 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D24657611E645D2100D17801 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D24657641E645D2100D17801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D24657661E645D2100D17801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D246576C1E64614700D17801 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		D2CC56221E64857E00FDCB39 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				D246575A1E645D2100D17801 /* AppDelegate.swift */,
 				D246575C1E645D2100D17801 /* ViewController.swift */,
 				D246575E1E645D2100D17801 /* Main.storyboard */,
+				D2CC56221E64857E00FDCB39 /* SecondViewController.swift */,
+				D246576C1E64614700D17801 /* MovieCell.swift */,
 				D24657611E645D2100D17801 /* Assets.xcassets */,
 				D24657631E645D2100D17801 /* LaunchScreen.storyboard */,
 				D24657661E645D2100D17801 /* Info.plist */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2CC56231E64857E00FDCB39 /* SecondViewController.swift in Sources */,
 				D246575D1E645D2100D17801 /* ViewController.swift in Sources */,
 				D246575B1E645D2100D17801 /* AppDelegate.swift in Sources */,
+				D246576D1E64614700D17801 /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +307,7 @@
 				D246576B1E645D2100D17801 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
